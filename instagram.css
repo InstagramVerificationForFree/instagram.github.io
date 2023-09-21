@@ -1,0 +1,94 @@
+/* Apply a modern linear gradient background */
+body {
+    background-image: linear-gradient(to bottom, #ef32d9, #89fffd);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+/* Style the header */
+header {
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Center the main content */
+main {
+    text-align: center;
+    max-width: 800px;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.1); /* Add a semi-transparent background */
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+
+/* Style the info section */
+.info {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+/* Style the animation section */
+.animation {
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+h2 {
+    color: #0e0d0d; /* Cool color of your choice */
+}
+
+
+
+/* Style the verification button */
+.verify-button {
+    background-color: #405DE6;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-decoration: none; /* Remove underline from links */
+    display: inline-block; /* Make it a block-level element */
+}
+
+.verify-button:hover {
+    background-color: #1A237E;
+}
+
+/* Style additional sections */
+.additional-info, .tips {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #405DE6;
+    color: #ffffff;
+    text-align: center;
+    padding: 0.5rem;
+}
